@@ -20,12 +20,12 @@
 		DB5FB0D320E6B07600D491C7 /* toDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5FB0D220E6B07600D491C7 /* toDo.swift */; };
 		DB5FB0D520E8E4D500D491C7 /* TDCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5FB0D420E8E4D500D491C7 /* TDCheckBox.swift */; };
 		DB850B4D20D3F3EF00E6B1C2 /* TDNewItemPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB850B4C20D3F3EF00E6B1C2 /* TDNewItemPopup.swift */; };
+		DB8CD1A52185C7BC00B3373C /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB8CD1A32185C7BC00B3373C /* Raleway-SemiBold.ttf */; };
+		DB8CD1A62185C7BC00B3373C /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB8CD1A42185C7BC00B3373C /* Raleway-Regular.ttf */; };
 		DBC7959220D639010080388C /* TDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC7959120D639010080388C /* TDTextField.swift */; };
 		DBCD73D920D12F62007C9D43 /* TDGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCD73D820D12F62007C9D43 /* TDGradient.swift */; };
 		DBCD73DC20D138F1007C9D43 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCD73DB20D138F1007C9D43 /* extension.swift */; };
 		DBCD73E020D14D2A007C9D43 /* TDLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBCD73DF20D14D2A007C9D43 /* TDLabel.swift */; };
-		DBCD73E320D1993F007C9D43 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBCD73E220D1993F007C9D43 /* Raleway-Regular.ttf */; };
-		DBCD73E520D19AAA007C9D43 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DBCD73E420D19AAA007C9D43 /* Raleway-SemiBold.ttf */; };
 		DBE51B0220D2A28C00E79BE8 /* ListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE51B0120D2A28C00E79BE8 /* ListController.swift */; };
 		DBE51B0420D2CFD100E79BE8 /* TDHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE51B0320D2CFD100E79BE8 /* TDHeaderView.swift */; };
 /* End PBXBuildFile section */
@@ -46,12 +46,12 @@
 		DB5FB0D220E6B07600D491C7 /* toDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDo.swift; sourceTree = "<group>"; };
 		DB5FB0D420E8E4D500D491C7 /* TDCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDCheckBox.swift; sourceTree = "<group>"; };
 		DB850B4C20D3F3EF00E6B1C2 /* TDNewItemPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDNewItemPopup.swift; sourceTree = "<group>"; };
+		DB8CD1A32185C7BC00B3373C /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-SemiBold.ttf"; sourceTree = "<group>"; };
+		DB8CD1A42185C7BC00B3373C /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
 		DBC7959120D639010080388C /* TDTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDTextField.swift; sourceTree = "<group>"; };
 		DBCD73D820D12F62007C9D43 /* TDGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDGradient.swift; sourceTree = "<group>"; };
 		DBCD73DB20D138F1007C9D43 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 		DBCD73DF20D14D2A007C9D43 /* TDLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDLabel.swift; sourceTree = "<group>"; };
-		DBCD73E220D1993F007C9D43 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-Regular.ttf"; path = "Raleway/Raleway-Regular.ttf"; sourceTree = SOURCE_ROOT; };
-		DBCD73E420D19AAA007C9D43 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Raleway-SemiBold.ttf"; path = "Raleway/Raleway-SemiBold.ttf"; sourceTree = SOURCE_ROOT; };
 		DBE51B0120D2A28C00E79BE8 /* ListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListController.swift; sourceTree = "<group>"; };
 		DBE51B0320D2CFD100E79BE8 /* TDHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,8 +145,8 @@
 		DBCD73E120D197E5007C9D43 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
-				DBCD73E220D1993F007C9D43 /* Raleway-Regular.ttf */,
-				DBCD73E420D19AAA007C9D43 /* Raleway-SemiBold.ttf */,
+				DB8CD1A42185C7BC00B3373C /* Raleway-Regular.ttf */,
+				DB8CD1A32185C7BC00B3373C /* Raleway-SemiBold.ttf */,
 			);
 			path = fonts;
 			sourceTree = "<group>";
@@ -219,10 +219,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB8CD1A52185C7BC00B3373C /* Raleway-SemiBold.ttf in Resources */,
 				DB43C16420C8701400207E94 /* LaunchScreen.storyboard in Resources */,
-				DBCD73E520D19AAA007C9D43 /* Raleway-SemiBold.ttf in Resources */,
-				DBCD73E320D1993F007C9D43 /* Raleway-Regular.ttf in Resources */,
 				DB43C16120C8701400207E94 /* Assets.xcassets in Resources */,
+				DB8CD1A62185C7BC00B3373C /* Raleway-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
